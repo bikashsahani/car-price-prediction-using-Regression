@@ -1,1 +1,1 @@
-this is 
+# This project is about predicting the car price based on the input features by Multiple Linear Regression.
