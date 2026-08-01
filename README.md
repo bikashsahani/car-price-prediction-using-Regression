@@ -121,13 +121,14 @@ We are required to model the price of cars with the available independent variab
                     R2 score: 0.7778270471765748
 
 ----
-##### comparision Table:
+### Model Performance Comparison
 
-        Model	   |   R2 Score |	MSE |	RMSE	| MAE
-0	Decision Tree (default)|	0.917292 |	6.529339e+06	| 2555.257080 |	1750.662610
-1	Linear Regression	0.906359	7.392390e+06	2718.894957	1922.758772
-2	Lasso Regression	0.905994	7.421229e+06	2724.193293	1927.429454
-3	ElasticNet	0.904126	7.568681e+06	2751.123638	1931.686266
-4	Ridge Regression	0.903046	7.653958e+06	2766.578723	1939.359974
-5	Decision Tree (tuned)	0.777827	1.753923e+07	4187.985939	2662.037879
-6	Polynomial Regression	0.544836	3.593247e+07	5994.369715	3847.726178
+| Model | $R^2$ Score | MSE | RMSE | MAE |
+| :--- | :---: | :---: | :---: | :---: |
+| **Decision Tree (default)** | **0.9173** | **6.53e+06** | **2,555.26** | **1,750.66** |
+| **Linear Regression** | 0.9064 | 7.39e+06 | 2,718.89 | 1,922.76 |
+| **Lasso Regression** | 0.9060 | 7.42e+06 | 2,724.19 | 1,927.43 |
+| **ElasticNet** | 0.9041 | 7.57e+06 | 2,751.12 | 1,931.69 |
+| **Ridge Regression** | 0.9030 | 7.65e+06 | 2,766.58 | 1,939.36 |
+| **Decision Tree (tuned)** | 0.7778 | 1.75e+07 | 4,187.99 | 2,662.04 |
+| **Polynomial Regression** | 0.5448 | 3.59e+07 | 5,994.37 | 3,847.73 |
