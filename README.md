@@ -29,7 +29,7 @@ We are required to model the price of cars with the available independent variab
 - Uncleaned Unique Companies: 27, Cleaned Unique Companies: 23
 - Unique Companies List: ['alfa-romero', 'audi', 'bmw', 'buick', 'chevrolet', 'dodge', 'honda', 'isuzu', 'jaguar', 'mazda', 'mercury', 'mitsubishi', 'nissan', 'peugeot', 'plymouth', 'porcshce', 'porsche', 'renault', 'saab', 'subaru', 'toyota', 'volkswagen', 'volvo']
 - Car company 'toyota' appears most frequently in the dataset.
-- the count of gas car are much higher then diesel one which indicates that gas car in high demands. 
+- the count of gas car are much higher then diesel one which indicates that gas car are in high demands. 
 - the average price of gas car = 12999.7982 which is less then average price of diesel car = 15838.1500. Fuel type affect the price of the car.
 - carbody strongly impacts the price of the car.
 - Drive wheel also impact the price of the car.
@@ -38,7 +38,6 @@ We are required to model the price of cars with the available independent variab
 - Cylinder number in car affect the car price. As the number of cylinders increases, car prices increase substantially. But in the case of 2 cylinder engine, it is special sports car engine so that it cost more then 3 cylinder engine.
 - ohc engine type is the most common engine type.
 - Engine type feature has the strongest positive correlation with price i.e 0.874145.
-
 
 -----------
 
@@ -64,21 +63,21 @@ We are required to model the price of cars with the available independent variab
 
 ## 5. Regression
 #### 5.1 Linear regression:
-- Performance Matrix:
+- Performance Metrics:
                     MSE: 7392389.787943535
                     MAE: 1922.758772016182
                     RMSE: 2718.894957136729
                     R2 score: 0.9063590921063864
 
 #### 5.2 Ridge Regression
-- Performance Matrix:
+- Performance Metrics:
                     MSE: 7653957.828865168
                     MAE: 1939.3599740011723
                     RMSE: 2766.578722694362
                     R2 score: 0.9030457564286868
 
 #### 5.3 Lasso Regression
-- Performance Matrix:
+- Performance Metrics:
                     MSE: 7421229.099375359
                     MAE: 1927.429453874768
                     RMSE: 2724.1932933210446
@@ -87,21 +86,21 @@ We are required to model the price of cars with the available independent variab
 
 
 #### 5.4 ElasticNet Regression
-- Performance Matrix:
+- Performance Metrics:
                     MSE: 7568681.269740359
                     MAE: 1931.6862659560297
                     RMSE: 2751.1236376688635
                     R2 score: 0.9041259719811072
 
-#### 5.5 Polyminal Regression
-- Performance Matrix:
+#### 5.5 Polynomial Regression
+- Performance MaMetricstrix:
                     MSE: 35932468.28555776
                     MAE: 3847.7261779455407
                     RMSE: 5994.369715454475
                     R2 score: 0.544836101769718
 
 #### 5.6 Decision Tree Regressor
-- Performance Matrix:
+- Performance Metrics:
                     MSE: 6529338.746387537
                     MAE: 1750.6626097560975
                     RMSE: 2555.257080293006
@@ -140,8 +139,9 @@ We are required to model the price of cars with the available independent variab
 ------
 
 #### Conclusion:
-- Among all the Regression models used for the car price perdiction. Decision Tree (default) performs the best.
-- Among the multiple independant features, 'enginesize' and 'curbweight' features contains altogether about 91% importance and other rest features have very little importance. so the main goal of the business is to focus on the 'enginesize' and 'curbweight' for the car market
+- Among all the Regression models used for the car price pre
+diction. Decision Tree (default) performs the best.
+- Among the multiple independent features, 'enginesize' and 'curbweight' features contains altogether about 91% importance and other rest features have very little importance. so the main goal of the business is to focus on the 'enginesize' and 'curbweight' for the car market
 
 ------
 #### Files:
