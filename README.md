@@ -1,4 +1,8 @@
-# This project is about predicting the car price based on the input features by Multiple Linear Regression.
+# Car Price prediction - Using Regression Model
+---
+
+## Overview
+- This project is about predicting the car price based on the input features by Multiple Linear Regression.
 -----------------------
 
 ## Problem Statement
@@ -132,3 +136,28 @@ We are required to model the price of cars with the available independent variab
 | **Ridge Regression** | 0.9030 | 7.65e+06 | 2,766.58 | 1,939.36 |
 | **Decision Tree (tuned)** | 0.7778 | 1.75e+07 | 4,187.99 | 2,662.04 |
 | **Polynomial Regression** | 0.5448 | 3.59e+07 | 5,994.37 | 3,847.73 |
+
+------
+
+#### Conclusion:
+- Among all the Regression models used for the car price perdiction. Decision Tree (default) performs the best.
+- Among the multiple independant features, 'enginesize' and 'curbweight' features contains altogether about 91% importance and other rest features have very little importance. so the main goal of the business is to focus on the 'enginesize' and 'curbweight' for the car market
+
+------
+#### Files:
+- car_price_prediction.ipynb -----> main file
+- CarPrice_Assignment.csv   ------> dataset file
+- Car_Price_Data_Dictionary.xlsx -------> features information
+- regressor.pkl         ---------> model dataset 
+---
+
+#### Tools Used
+- Python, Pandas, NumPy
+- Matplotlib, Seaborn
+- Jupyter Notebook
+- sklearn
+- Regression
+
+----
+## 👤 Author
+- Bikash Sahani github.com/bikashsahani | linkedin.com/in/bikash-sahani
